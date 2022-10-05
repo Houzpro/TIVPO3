@@ -13,6 +13,10 @@ class ConverterTest {
         double result= Converter.rub_eur(58.06);
         assertEquals(1, result);
     }
-
+    @Test
+    void rub_uan_is_correct() {
+        double result= Converter.rub_uan(8.36);
+        assertEquals(1, result);
+    }
 
 }
